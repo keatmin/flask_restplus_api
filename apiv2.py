@@ -4,7 +4,7 @@ from apis.foodAI import api as foodai_api
 
 blueprint = Blueprint('foodai', __name__)
 api = Api(blueprint, 
-title='Naluri Machine Learning API', 
+title='Machine Learning API', 
 version='2.0',
 description='Predictors for conversation change and sustain')
 
